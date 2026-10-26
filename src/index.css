@@ -138,7 +138,10 @@ img {
   padding: 12px 17px;
   border: 1px solid #c9cdc3;
   border-radius: 999px;
-  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+  transition:
+    background 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
 }
 
 .nav-contact:hover {
@@ -243,7 +246,10 @@ img {
   border-radius: 999px;
   font-size: 12px;
   font-weight: 750;
-  transition: transform 180ms ease, background 180ms ease, border-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    border-color 180ms ease;
 }
 
 .button:hover {
@@ -296,7 +302,9 @@ img {
   background: #fff;
   box-shadow: 14px 14px 0 #e2e5dc;
   transform: rotate(2deg);
-  transition: transform 220ms ease, box-shadow 220ms ease;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
 }
 
 .avatar-card:hover {
@@ -373,16 +381,34 @@ img {
   height: 9px;
 }
 
-.pixel--fur { background: #fbfbf9; }
-.pixel--fur-gray { background: #cfcfcc; }
-.pixel--outline { background: #4a4a4a; }
-.pixel--ear-inner { background: #f4b6c2; }
-.pixel--eye { background: #263246; }
-.pixel--nose { background: #f08aa0; }
-.pixel--shirt { background: #286b50; }
-.pixel--shirt-light { background: #79a98b; }
+.pixel--fur {
+  background: #fbfbf9;
+}
+.pixel--fur-gray {
+  background: #cfcfcc;
+}
+.pixel--outline {
+  background: #4a4a4a;
+}
+.pixel--ear-inner {
+  background: #f4b6c2;
+}
+.pixel--eye {
+  background: #263246;
+}
+.pixel--nose {
+  background: #f08aa0;
+}
+.pixel--shirt {
+  background: #286b50;
+}
+.pixel--shirt-light {
+  background: #79a98b;
+}
 .pixel--empty,
-.pixel--undefined { background: transparent; }
+.pixel--undefined {
+  background: transparent;
+}
 
 .avatar-caption {
   display: flex;
@@ -545,7 +571,10 @@ img {
   border: 1px solid #d8dad1;
   border-radius: 15px;
   background: #fbfbf8;
-  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease;
 }
 
 .project-card:hover {
@@ -788,7 +817,9 @@ img {
   background: #fbfbf8;
   font-size: 12px;
   font-weight: 650;
-  transition: transform 180ms ease, border-color 180ms ease;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease;
 }
 
 .skill-item:hover {
