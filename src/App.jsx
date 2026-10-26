@@ -333,7 +333,7 @@ function App() {
               Hi, I'm Angelo.
               <br />
               <span className="accent">
-                Web & Desktop Developer
+                web & desktop developer
               </span>
             </h1>
 
