@@ -147,13 +147,40 @@ const projects = [
     description:
       "A theater ticketing application demonstrating ticket management and database-driven application workflows.",
 
-    stack: ["Application Development", "CRUD", "Database"],
+    stack: ["C#","Application Development", "CRUD", "Database"],
 
     links: [
       {
         label: "View Repository",
 
         url: "https\://github.com/bl4nkCode/Theater-ticketing-system",
+      },
+    ],
+  },
+
+  {
+    number: "06",
+    title: "Mingnight",
+    category: "Full-Stack Development",
+    name: "Mingnight",
+    type: "REAL-TIME CHAT APPLICATION",
+    color: "project-art--midnight",
+    mark: "◉",
+    image: "/images/mingnight.png",
+    description:
+      "A real-time messaging application built with React and Laravel, featuring global chat, private conversations, online presence, typing indicators, and Sanctum authentication powered by Laravel Reverb.",
+    stack: [
+      "React",
+      "Laravel",
+      "Laravel Reverb",
+      "WebSockets",
+      "Sanctum",
+      "MySQL",
+    ],
+    links: [
+      {
+        label: "View Repository",
+        url: "https://github.com/bl4nkCode/realtime-chat",
       },
     ],
   },
@@ -332,9 +359,7 @@ function App() {
             <h1>
               Hi, I'm Angelo.
               <br />
-              <span className="accent">
-                web & desktop developer
-              </span>
+              <span className="accent">web & desktop developer</span>
             </h1>
 
             <p className="hero-description">
@@ -426,7 +451,7 @@ function App() {
 
             <b>✳</b>
 
-            <span>MYSQL</span>
+            <span>Postman</span>
 
             <b>✳</b>
 
@@ -434,7 +459,7 @@ function App() {
 
             <b>✳</b>
 
-            <span>REACT</span>
+            <span>DevExpress</span>
 
             <b>✳</b>
 
